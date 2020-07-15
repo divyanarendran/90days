@@ -17,6 +17,26 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
+	/*1) Go to https://www.pepperfry.com/
+2) Mouseover on Furniture and click Office Chairs under Chairs
+3) click Executive Chairs
+4) Change the minimum Height as 50 in under Dimensions
+5) Add "Poise Executive Chair in Black Colour" chair to Wishlist
+6) Mouseover on Furniture and Click Office tables
+7) Select Executive Desks
+8) Select Price between 20000 to 40000 rs
+9) Add "Executive Office Table in Brown Color" to Wishlist
+10) Verify the number of items in Wishlist
+11) Navigate to Wishlist
+12) Get the offer Price and Coupon Code for Executive Office Table in Brown Color
+13) Move Executive Office Table in Brown Color only to Cart from Wishlist
+14) Check for the availability for Pincode 600128
+15) Click on PROCEED TO PAY SECURELY from My Cart
+16) Enter the Coupon code and click Apply
+17) Click Proceed to Pay
+18) Capture the screenshot of the item under ORDER SUMMARY
+19) Close the browser*/
+
 public class day4_pepperfry {
 
 	public static void takeScreenshot(WebElement element,String eleName) throws IOException{
