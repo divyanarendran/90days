@@ -21,6 +21,20 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+/*  
+			1. Go to https://www.zoomcar.com/chennai
+			2. Click on Start your wonderful journey
+			3. Select  any location under POPULAR PICK-UP POINTS and click next
+			4. Select tomorrow's date and time as 9:00 AM as start date and time and Click Next
+			5. Click on Show More and Select tomorrow's date and Select time as 6:00 PM as end date  and Click Done
+			6.  Take the snapshot for PICKUP TIME and DROP OFF TIME
+			7. Validate the pickup time and Drop off time are correct (as you selected) and click on Done
+			8. Click on Price: High to Low and validate the sort order of the car price programmatically
+			9. Print all the Car name and respective Price from High to Low ( car name -- price )
+			10. Take snapshot of the details for the Highest price car
+			11. Click on Know More for the Highest price car and print the rate after 45Kms
+			12. Close the Browser
+		*/  
 
 public class week2_day8_ZoomCar {
 
