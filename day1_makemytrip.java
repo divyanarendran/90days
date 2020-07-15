@@ -9,6 +9,22 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class day1_makemytrip {
+	/*  1) Go to https://www.makemytrip.com/
+			2) Click Hotels
+			3) Enter city as Goa, and choose Goa, India
+			4) Enter Check in date as Next month 15th (July 15) and Check out as start date+4
+			5) Click on ROOMS & GUESTS and click 2 Adults and one Children(age 12). Click Apply Button.
+			6) Click Search button
+			7) Select locality as Baga
+			8) Select user rating as 3&above(good) under Select Filters
+			9) Select Sort By: Price-Low to High
+			10) Click on the first resulting hotel and go to the new window
+			11) Print the Hotel Name 
+			12) Click VIEW THIS COMBO button under Recommended Combo
+			13) Click on BOOK THIS COMBO button
+			14) Print the Total Payable amount
+			15) Close the browser 
+		*/  
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
