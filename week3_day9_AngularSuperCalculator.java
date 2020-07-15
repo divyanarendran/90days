@@ -7,6 +7,17 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+/*  
+			1. Go to https://juliemr.github.io/protractor-demo/
+			2. Input a number
+			3. Select Multiplication
+			4. Input second number
+			5. Click GO
+			6. Wait for the output to load and print the results
+			Condition:
+			* Should not use Thread.sleep
+			Hint: Refer https://blog.vsoftconsulting.com/blog/testing-angular-applications-using-selenium
+		*/  
 public class week3_day9_AngularSuperCalculator {
 
 	public static void main(String[] args) throws InterruptedException {
